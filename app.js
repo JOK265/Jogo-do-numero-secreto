@@ -9,13 +9,13 @@ function limparCampo() {
     chute.value = '';
 }
 
-let numeroMaximo = 10;
+let numeroMaximo = 100;
 
 let tentativas = 1;
 
 function mensagemInicial() {
     mudarTags('h1', 'Jogo da Adivinhação');
-    mudarTags('p', 'Diga um número de 1 a 10:');    
+    mudarTags('p', `Diga um número de 1 a ${numeroMaximo}:`);    
 }
 
 mensagemInicial();
